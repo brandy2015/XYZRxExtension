@@ -6,5 +6,6 @@ target 'XYZRxExtension' do
   use_frameworks!
 
   # Pods for XYZRxExtension
-
+  pod 'RxSwift'                       # 响应式开发
+  pod 'RxCocoa'
 end
