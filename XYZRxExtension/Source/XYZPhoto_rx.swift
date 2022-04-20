@@ -11,12 +11,12 @@ import RxCocoa
 import Photos
 
 
-class PhotoWriter {
-  enum Errors: Error {
+public class PhotoWriter {
+    public enum Errors: Error {
     case couldNotSavePhoto
   }
 
-  static func save(_ image: UIImage) -> Observable<String> {
+    public static func save(_ image: UIImage) -> Observable<String> {
     return Observable.create { observer in
       var savedAssetId: String?
       PHPhotoLibrary.shared().performChanges({
