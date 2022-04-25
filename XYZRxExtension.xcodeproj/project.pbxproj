@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8764AB18D1CDB233EF4742EA /* Pods_XYZRxExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F595CBA536B065CF7A50BB /* Pods_XYZRxExtension.framework */; };
+		D603EF8B281686EE000F42C1 /* CLLocationManager+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D603EF8A281686ED000F42C1 /* CLLocationManager+Rx.swift */; };
+		D603EF8D28168ACD000F42C1 /* XYZChangeOld.swift in Sources */ = {isa = PBXBuildFile; fileRef = D603EF8C28168ACD000F42C1 /* XYZChangeOld.swift */; };
 		D6C07D97280FDF860033FBD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C07D96280FDF860033FBD0 /* AppDelegate.swift */; };
 		D6C07D99280FDF860033FBD0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C07D98280FDF860033FBD0 /* SceneDelegate.swift */; };
 		D6C07D9B280FDF860033FBD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C07D9A280FDF860033FBD0 /* ViewController.swift */; };
@@ -15,12 +17,15 @@
 		D6C07DA0280FDF880033FBD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C07D9F280FDF880033FBD0 /* Assets.xcassets */; };
 		D6C07DA3280FDF880033FBD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C07DA1280FDF880033FBD0 /* LaunchScreen.storyboard */; };
 		D6C07DAC280FDFAD0033FBD0 /* XYZPhoto_rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C07DAB280FDFAD0033FBD0 /* XYZPhoto_rx.swift */; };
+		D6D8D699281241D60025CB0D /* XYZInt_rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D8D698281241D60025CB0D /* XYZInt_rx.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		47F595CBA536B065CF7A50BB /* Pods_XYZRxExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYZRxExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17AEA8C4E33F6D48D1AD0E8 /* Pods-XYZRxExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZRxExtension.debug.xcconfig"; path = "Target Support Files/Pods-XYZRxExtension/Pods-XYZRxExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		C2F8CB78958E84D7D615CF1E /* Pods-XYZRxExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZRxExtension.release.xcconfig"; path = "Target Support Files/Pods-XYZRxExtension/Pods-XYZRxExtension.release.xcconfig"; sourceTree = "<group>"; };
+		D603EF8A281686ED000F42C1 /* CLLocationManager+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocationManager+Rx.swift"; sourceTree = "<group>"; };
+		D603EF8C28168ACD000F42C1 /* XYZChangeOld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZChangeOld.swift; sourceTree = "<group>"; };
 		D6C07D93280FDF860033FBD0 /* XYZRxExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYZRxExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C07D96280FDF860033FBD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6C07D98280FDF860033FBD0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +35,7 @@
 		D6C07DA2280FDF880033FBD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6C07DA4280FDF880033FBD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6C07DAB280FDFAD0033FBD0 /* XYZPhoto_rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZPhoto_rx.swift; sourceTree = "<group>"; };
+		D6D8D698281241D60025CB0D /* XYZInt_rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZInt_rx.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				D6C07DAB280FDFAD0033FBD0 /* XYZPhoto_rx.swift */,
+				D603EF8A281686ED000F42C1 /* CLLocationManager+Rx.swift */,
+				D6D8D698281241D60025CB0D /* XYZInt_rx.swift */,
+				D603EF8C28168ACD000F42C1 /* XYZChangeOld.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -218,7 +227,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6C07D9B280FDF860033FBD0 /* ViewController.swift in Sources */,
+				D603EF8D28168ACD000F42C1 /* XYZChangeOld.swift in Sources */,
 				D6C07D97280FDF860033FBD0 /* AppDelegate.swift in Sources */,
+				D6D8D699281241D60025CB0D /* XYZInt_rx.swift in Sources */,
+				D603EF8B281686EE000F42C1 /* CLLocationManager+Rx.swift in Sources */,
 				D6C07DAC280FDFAD0033FBD0 /* XYZPhoto_rx.swift in Sources */,
 				D6C07D99280FDF860033FBD0 /* SceneDelegate.swift in Sources */,
 			);
